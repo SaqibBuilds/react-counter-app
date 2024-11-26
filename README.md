@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# React Counter App  
+
+A simple counter application built using React functional components. The app allows users to increment, decrement, and reset a counter value using the `useState` hook.  
+
+## Features  
+- Increment counter  
+- Decrement counter  
+- Reset counter to zero  
+
+## How to Run  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/your-username/react-counter-app.git
+>>>>>>> 8f0bbe1556cc53704a8d43fce89aee9b6234cd5d

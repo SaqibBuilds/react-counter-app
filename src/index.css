@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.counterAppBody {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div#root {
+  background: #f2d054;
+  min-height: 100vh;
+  text-align: center;
+  padding: 40px;
+}
+
+.heading h1 {
+  margin: 0;
+  font-size: 33px;
+}
+
+.counterAppInbound {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #f7f7f7;
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: 0px 4px 32px 30px #a084211a;
+}
+
+.subtractValue button, .addValue button {
+  background: #f4de92;
+  border: 0;
+  padding: 5px 31px;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 30px;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.numberValueContainer span {
+  border: 0;
+  padding: 5px 31px;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.heading {
+  margin-bottom: 40px;
+}
+
+.resetContainer {
+  margin-top: 20px;
+}
+
+.resetNumber button {
+  background: #222222;
+  border: 0;
+  padding: 12px 31px;
+  display: block;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 23px;
+  color: #fff;
+  width: 100%;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.resetNumber {
+  display: flex;
+  justify-content: center;
+}
+.subtractValue button:hover, .addValue button:hover {
+  background: #e1cb7d;
+}
+
+.resetNumber button:hover {
+  background: #000;
+}
